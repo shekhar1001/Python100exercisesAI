@@ -9,3 +9,5 @@ grid = GridSearchCV(SVC(), param_grid=params, cv=2)
 grid.fit(X, y)
 
 print("Best Params:", grid.best_params_)
+
+# Best Params: {'C': 0.1, 'kernel': 'linear'}

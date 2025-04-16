@@ -3,7 +3,6 @@ from sklearn.datasets import load_iris
 from sklearn.model_selection import train_test_split
 
 iris=load_iris()
-iris.head()
 X=iris.data[iris.target!=2]
 y=iris.target[iris.target!=2]
 

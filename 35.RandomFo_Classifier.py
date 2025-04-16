@@ -10,3 +10,5 @@ model= RandomForestClassifier(n_estimators=100)
 model.fit(X_train,y_train)
 
 print("Random Forest Accuracy", model.score(X_test,y_test))
+
+# Random Forest Accuracy 1.0

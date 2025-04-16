@@ -10,3 +10,5 @@ model.fit(X_train,y_train)
 
 print("XGBoost Accuracy", model.score(X_test,y_test))
 
+# XGBoost Accuracy 0.9210526315789473
+

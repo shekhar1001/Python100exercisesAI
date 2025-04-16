@@ -10,3 +10,5 @@ model.fit(X_train,y_train)
 
 print("SVM Accuracy", model.score(X_test,y_test))
 
+# SVM Accuracy 0.9473684210526315
+

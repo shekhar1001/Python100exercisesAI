@@ -10,3 +10,4 @@ model.fit(X_train,y_train)
 
 print("Accuracy",model.score(X_test,y_test))
 
+# Accuracy 0.8947368421052632

@@ -11,4 +11,4 @@ dump(model,"rf_model.joblib")
 loaded=load("rf_model.joblib")
 print("Loaded model accuracy:",loaded.score(X,y))
 
-# Loaded model accuracy:
+# Loaded model accuracy:1.0

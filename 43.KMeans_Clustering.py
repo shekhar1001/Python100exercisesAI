@@ -11,3 +11,7 @@ model.fit(X)
 print("Cluster Labels:",model.labels_)
 print("Cluster Centers:",model.cluster_centers_)
 
+# Cluster Labels: [0 1 0 1 1 0]
+# Cluster Centers: [[2.         0.66666667]
+#  [3.         3.33333333]]
+

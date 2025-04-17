@@ -18,3 +18,5 @@ with open("Linear_model.pkl","rb") as f:
 
 print("Predictions:",loaded_model.predict([[4]]))
 
+# Predictions: [[8.]] Accuracy:1.0
+

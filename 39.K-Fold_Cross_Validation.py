@@ -9,3 +9,5 @@ scores=cross_val_score(model,X,y,cv=5)
 print("Cross-validation scores:",scores)
 print("Average accuracy",scores.mean())
 
+# Cross-validation scores: [0.96666667 1.         0.93333333 0.96666667 1.        ]
+# Average accuracy 0.9733333333333334

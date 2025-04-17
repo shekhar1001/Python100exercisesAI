@@ -21,3 +21,6 @@ plt.ylabel("True Positive Rate")
 plt.legend()
 plt.title("ROC Curve")
 plt.show()
+
+# AUC:0.95
+

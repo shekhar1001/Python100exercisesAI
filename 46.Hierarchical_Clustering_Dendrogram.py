@@ -8,3 +8,4 @@ linked=linkage(X,'ward')
 dendrogram(linked)
 plt.title("Hierarchical Clustering Dendrogram")
 plt.show()
+

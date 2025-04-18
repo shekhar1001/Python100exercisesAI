@@ -6,3 +6,5 @@ pca=PCA(n_components=2)
 X_pca=pca.fit_transform(X)
 
 print("Reduced Shape:",X_pca.shape)
+
+# Reduced Shape: (150, 2)

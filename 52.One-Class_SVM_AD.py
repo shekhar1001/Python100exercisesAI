@@ -9,3 +9,5 @@ model.fit(X_train)
 
 preds=model.predict(X_test)
 print("Predictions:",preds)
+
+# Predictions: [ 1 -1 -1  1  1  1  1  1 -1 -1  1  1 -1 -1  1 -1  1  1  1  1]

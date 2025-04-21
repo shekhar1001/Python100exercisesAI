@@ -26,3 +26,10 @@ model.compile(optimizer='adam', loss='binary_crossentropy', metrics=['accuracy']
 early_stopping = EarlyStopping(monitor='val_loss', patience=3)
 
 model.fit(X_train, y_train, epochs=50, validation_split=0.2, callbacks=[early_stopping])
+
+# Output
+# .
+# .
+#  1/20 ━━━━━━━━━━━━━━━━━━━━ 0s 32ms/step - accuracy: 1.0000 - loss:20/20 ━━━━━━━━━━━━━━━━━━━━ 0s 6ms/step - accuracy: 0.9520 - loss: 0.3541 - val_accuracy: 0.9375 - val_loss: 0.3487
+# Epoch 50/50
+#  1/20 ━━━━━━━━━━━━━━━━━━━━ 0s 32ms/step - accuracy: 1.0000 - loss:20/20 ━━━━━━━━━━━━━━━━━━━━ 0s 8ms/step - accuracy: 0.9348 - loss: 

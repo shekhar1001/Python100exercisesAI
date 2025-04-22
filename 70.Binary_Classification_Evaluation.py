@@ -42,3 +42,28 @@ print(classification_report(y_test, y_pred))
 
 roc_auc = roc_auc_score(y_test, y_prob)
 print(f"ROC AUC Score: {roc_auc:.4f}")
+
+# Output:
+# .
+# .
+# 46/46 ━━━━━━━━━━━━━━━━━━━━ 0s 3ms/step - accuracy: 0.9990 - loss: 0.0044
+# 1/4 ━━━━━━━━━━━━━━━━━━━━ 0s 199ms/step - accuracy: 0.9688 - loss4/4 ━━━━━━━━━━━━━━━━━━━━ 0s 14ms/step - accuracy: 0.9738 - loss: 0.1262 
+
+# Test Accuracy: 0.9737
+# 4/4 ━━━━━━━━━━━━━━━━━━━━ 0s 23ms/step
+
+# Confusion Matrix:
+# [[41  2]
+#  [ 1 70]]
+
+# Classification Report:
+#               precision    recall  f1-score   support
+
+#            0       0.98      0.95      0.96        43
+#            1       0.97      0.99      0.98        71
+
+#     accuracy                           0.97       114
+#    macro avg       0.97      0.97      0.97       114
+# weighted avg       0.97      0.97      0.97       114
+
+# ROC AUC Score: 0.9944

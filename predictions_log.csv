@@ -1,0 +1,3 @@
+timestamp,source,input,prediction
+2025-04-29 20:05:45.068745,iris,"[5.1, 3.5, 1.4, 0.2]",setosa
+2025-04-29 20:05:45.088223,titanic,"{'Pclass': 3, 'Sex': 'male', 'Age': 22, 'Fare': 7.25}",not survived

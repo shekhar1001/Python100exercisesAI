@@ -1,0 +1,223 @@
+digraph {
+	node [shape=box]
+	Sex
+	root -> Sex [label=""]
+	Pclass
+	Sex -> Pclass [label=0]
+	Fare
+	Pclass -> Fare [label=1]
+	Age
+	Fare -> Age [label=0]
+	SibSp
+	Age -> SibSp [label=1]
+	Leaf_0 [label=0 shape=ellipse]
+	SibSp -> Leaf_0 [label=0]
+	Leaf_0 [label=0 shape=ellipse]
+	SibSp -> Leaf_0 [label=1]
+	Leaf_0 [label=0 shape=ellipse]
+	SibSp -> Leaf_0 [label=2]
+	SibSp
+	Age -> SibSp [label=0]
+	Leaf_1 [label=1 shape=ellipse]
+	SibSp -> Leaf_1 [label=1]
+	Leaf_0 [label=0 shape=ellipse]
+	SibSp -> Leaf_0 [label=0]
+	SibSp
+	Age -> SibSp [label=2]
+	Leaf_0 [label=0 shape=ellipse]
+	SibSp -> Leaf_0 [label=0]
+	Leaf_0 [label=0 shape=ellipse]
+	SibSp -> Leaf_0 [label=1]
+	Leaf_0 [label=0 shape=ellipse]
+	Fare -> Leaf_0 [label=1]
+	Leaf_1 [label=1 shape=ellipse]
+	Fare -> Leaf_1 [label=2]
+	Age
+	Pclass -> Age [label=2]
+	SibSp
+	Age -> SibSp [label=0]
+	Fare
+	SibSp -> Fare [label=0]
+	Leaf_0 [label=0 shape=ellipse]
+	Fare -> Leaf_0 [label=0]
+	Fare
+	SibSp -> Fare [label=1]
+	Leaf_1 [label=1 shape=ellipse]
+	Fare -> Leaf_1 [label=0]
+	Fare
+	SibSp -> Fare [label=2]
+	Leaf_0 [label=0 shape=ellipse]
+	Fare -> Leaf_0 [label=0]
+	SibSp
+	Age -> SibSp [label=1]
+	Fare
+	SibSp -> Fare [label=1]
+	Leaf_0 [label=0 shape=ellipse]
+	Fare -> Leaf_0 [label=0]
+	Fare
+	SibSp -> Fare [label=0]
+	Leaf_0 [label=0 shape=ellipse]
+	Fare -> Leaf_0 [label=0]
+	Leaf_0 [label=0 shape=ellipse]
+	SibSp -> Leaf_0 [label=2]
+	SibSp
+	Age -> SibSp [label=2]
+	Fare
+	SibSp -> Fare [label=0]
+	Leaf_0 [label=0 shape=ellipse]
+	Fare -> Leaf_0 [label=0]
+	Leaf_0 [label=0 shape=ellipse]
+	SibSp -> Leaf_0 [label=1]
+	SibSp
+	Pclass -> SibSp [label=3]
+	Age
+	SibSp -> Age [label=0]
+	Fare
+	Age -> Fare [label=1]
+	Leaf_0 [label=0 shape=ellipse]
+	Fare -> Leaf_0 [label=0]
+	Leaf_0 [label=0 shape=ellipse]
+	Age -> Leaf_0 [label=2]
+	Fare
+	Age -> Fare [label=0]
+	Leaf_0 [label=0 shape=ellipse]
+	Fare -> Leaf_0 [label=0]
+	Age
+	SibSp -> Age [label=1]
+	Fare
+	Age -> Fare [label=0]
+	Leaf_0 [label=0 shape=ellipse]
+	Fare -> Leaf_0 [label=0]
+	Leaf_0 [label=0 shape=ellipse]
+	Age -> Leaf_0 [label=1]
+	Leaf_0 [label=0 shape=ellipse]
+	SibSp -> Leaf_0 [label=3]
+	Age
+	SibSp -> Age [label=2]
+	Leaf_0 [label=0 shape=ellipse]
+	Age -> Leaf_0 [label=0]
+	Fare
+	Age -> Fare [label=1]
+	Leaf_0 [label=0 shape=ellipse]
+	Fare -> Leaf_0 [label=0]
+	Age
+	SibSp -> Age [label=4]
+	Fare
+	Age -> Fare [label=0]
+	Leaf_0 [label=0 shape=ellipse]
+	Fare -> Leaf_0 [label=0]
+	Leaf_0 [label=0 shape=ellipse]
+	SibSp -> Leaf_0 [label=8]
+	Leaf_0 [label=0 shape=ellipse]
+	SibSp -> Leaf_0 [label=5]
+	Pclass
+	Sex -> Pclass [label=1]
+	SibSp
+	Pclass -> SibSp [label=3]
+	Age
+	SibSp -> Age [label=4]
+	Fare
+	Age -> Fare [label=0]
+	Leaf_0 [label=0 shape=ellipse]
+	Fare -> Leaf_0 [label=0]
+	Age
+	SibSp -> Age [label=0]
+	Fare
+	Age -> Fare [label=1]
+	Leaf_1 [label=1 shape=ellipse]
+	Fare -> Leaf_1 [label=0]
+	Leaf_1 [label=1 shape=ellipse]
+	Age -> Leaf_1 [label=2]
+	Fare
+	Age -> Fare [label=0]
+	Leaf_1 [label=1 shape=ellipse]
+	Fare -> Leaf_1 [label=0]
+	Age
+	SibSp -> Age [label=3]
+	Fare
+	Age -> Fare [label=1]
+	Leaf_0 [label=0 shape=ellipse]
+	Fare -> Leaf_0 [label=0]
+	Leaf_0 [label=0 shape=ellipse]
+	Age -> Leaf_0 [label=0]
+	Age
+	SibSp -> Age [label=1]
+	Fare
+	Age -> Fare [label=0]
+	Leaf_0 [label=0 shape=ellipse]
+	Fare -> Leaf_0 [label=0]
+	Fare
+	Age -> Fare [label=1]
+	Leaf_0 [label=0 shape=ellipse]
+	Fare -> Leaf_0 [label=0]
+	Age
+	SibSp -> Age [label=2]
+	Fare
+	Age -> Fare [label=0]
+	Leaf_0 [label=0 shape=ellipse]
+	Fare -> Leaf_0 [label=0]
+	Leaf_1 [label=1 shape=ellipse]
+	Age -> Leaf_1 [label=1]
+	Leaf_0 [label=0 shape=ellipse]
+	SibSp -> Leaf_0 [label=8]
+	Leaf_0 [label=0 shape=ellipse]
+	SibSp -> Leaf_0 [label=5]
+	SibSp
+	Pclass -> SibSp [label=2]
+	Age
+	SibSp -> Age [label=0]
+	Leaf_1 [label=1 shape=ellipse]
+	Age -> Leaf_1 [label=1]
+	Fare
+	Age -> Fare [label=0]
+	Leaf_1 [label=1 shape=ellipse]
+	Fare -> Leaf_1 [label=0]
+	Leaf_1 [label=1 shape=ellipse]
+	Age -> Leaf_1 [label=2]
+	Age
+	SibSp -> Age [label=1]
+	Leaf_1 [label=1 shape=ellipse]
+	Age -> Leaf_1 [label=0]
+	Fare
+	Age -> Fare [label=1]
+	Leaf_1 [label=1 shape=ellipse]
+	Fare -> Leaf_1 [label=0]
+	Leaf_1 [label=1 shape=ellipse]
+	Age -> Leaf_1 [label=2]
+	Leaf_1 [label=1 shape=ellipse]
+	SibSp -> Leaf_1 [label=2]
+	Leaf_1 [label=1 shape=ellipse]
+	SibSp -> Leaf_1 [label=3]
+	Age
+	Pclass -> Age [label=1]
+	SibSp
+	Age -> SibSp [label=1]
+	Leaf_1 [label=1 shape=ellipse]
+	SibSp -> Leaf_1 [label=1]
+	Fare
+	SibSp -> Fare [label=0]
+	Leaf_1 [label=1 shape=ellipse]
+	Fare -> Leaf_1 [label=1]
+	Leaf_1 [label=1 shape=ellipse]
+	Fare -> Leaf_1 [label=0]
+	Leaf_1 [label=1 shape=ellipse]
+	Fare -> Leaf_1 [label=2]
+	Leaf_1 [label=1 shape=ellipse]
+	SibSp -> Leaf_1 [label=2]
+	SibSp
+	Age -> SibSp [label=0]
+	Fare
+	SibSp -> Fare [label=1]
+	Leaf_1 [label=1 shape=ellipse]
+	Fare -> Leaf_1 [label=0]
+	Leaf_1 [label=1 shape=ellipse]
+	Fare -> Leaf_1 [label=1]
+	Leaf_1 [label=1 shape=ellipse]
+	SibSp -> Leaf_1 [label=2]
+	Leaf_1 [label=1 shape=ellipse]
+	SibSp -> Leaf_1 [label=0]
+	Leaf_1 [label=1 shape=ellipse]
+	SibSp -> Leaf_1 [label=3]
+	Leaf_1 [label=1 shape=ellipse]
+	Age -> Leaf_1 [label=2]
+}
